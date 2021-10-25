@@ -1,0 +1,30 @@
+body {
+    background:linear-gradient(to right,rgb(255, 135, 155),blue);
+}
+
+#logindivText{
+    color:black;
+    font-weight:bolder;
+}
+
+#loginTitleText{ 
+    color: yellow;
+    font-style:italic;
+    text-align:center;
+    text-transform: uppercase;
+}
+.blink_me {
+    animation: blinker 3s linear infinite;
+}
+@keyframes blinker { 50%{
+    opacity: 0;
+}
+
+}
+.button {
+    width : 150px;
+    height: 30;
+    background-color: blue;
+    border-radius: 13px;
+    border-color:blueviolet
+}
